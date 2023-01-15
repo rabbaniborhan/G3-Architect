@@ -70,7 +70,7 @@ header{
 }
 
 .nevigration-items ul li{
-    text-decoration: none;
+   
     color: gray;
 
 }
@@ -216,7 +216,73 @@ margin-top: 10px;
     padding-top:20px;
     font-size: 30px;
  }
+/*bonus section style */
 
+
+ .testimonials{
+
+    margin-top: 100px;
+    padding: 40px 0px;
+    background:#17a7ef;
+    color: black;
+    text-align: center;
+
+
+}
+.inner{
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+
+}
+
+.border{
+    width: 160px;
+    height: 5px;
+    background-color: black;
+    margin: 26px auto;
+ 
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.col{
+    flex: 33.3%;
+    width: 33.3%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.testimonal{
+    background:#ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    height: 280px;
+}
+.testimonal img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+
+}
+
+.testimonal p{
+    font-size: 14px;
+
+}
+.stars{
+    color: #005FAC;
+    margin-bottom: 20px;
+}
 
 
 
@@ -347,6 +413,116 @@ margin-top: 10px;
     padding: 25px;
     color: grey;
     
+
+ }
+
+
+
+
+
+
+ /* responsive style */
+
+
+
+ @media only screen and ( max-width:576px){
+
+    .navigration-bar{
+        flex-direction:column;
+        align-items: flex-start;
+        
+
+    }
+
+    .nevigration-items ul{
+        flex-direction: column;
+        padding-top: 50px;
+        align-items: flex-start;
+        row-gap: 20px;
+
+    }
+
+    .nevigration-items ul li{
+        font-size: 20px;
+    
+    }
+
+    .feature{
+        flex-direction: column;
+    }
+    .feature-img{
+        grid-template-columns: 1fr;
+    }
+
+    .feature-img img{
+        width:100%;
+        height: 100%;}
+        
+        
+    .catagory{
+        flex-direction: column;
+    }
+    .catagory-img {
+        width: 100%;
+
+    }
+    .catagory-img img{
+        width: 100%;
+     margin:20px auto;
+     padding: 0px;
+    }
+
+
+    .Expreience{
+        position: static;
+        margin: 50px auto;
+    }
+    .facts{
+        margin: 30px auto;
+    }
+
+    .fact-lists{
+        flex-direction:column;
+        row-gap: 20px;
+        margin:0px auto;
+        align-items: center;
+    }
+
+    .sponser{
+        width: 100%;
+    }
+    .sponser-lists{
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        
+    }
+
+    footer{
+        width:100%;
+        margin: 0px;
+        display: inline;
+
+        
+    }
+    .row{
+        flex-direction: column;
+    }
+
+    .inner{
+        width: 100%;
+    }
+    .col{
+        width: 80%;
+    }
+    .testimonials{
+        width: 100%;
+    }
+
+    
+    
+    
+
 
  }
 
